@@ -1,0 +1,25 @@
+h1 {
+	font-family: sans-serif;
+	font-size: 3em;
+	color: #4B3452;
+
+}
+
+textarea {
+	
+
+}
+
+#textbox {
+	width: 25%;
+	float: left;
+}
+
+.output {
+	width: 25%;
+	float: left;
+	margin-left: 20px;
+	border: 3px solid #556F65 ;
+	padding: 15px;
+
+}
