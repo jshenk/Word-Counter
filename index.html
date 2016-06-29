@@ -14,6 +14,7 @@
 <div class="output">
 	<div>Characters: <span id="characterCount"></span></div>
 	<div>Words: <span id="wordCount"></span></div>
+	<div>Sentances: <span id="sentanceCount"></span></div>
 	
 </div>
 
@@ -29,8 +30,12 @@
 		var words = textInput.value.match(/\b[-?(\w+)?]+\b/gi);
 
 		wordCount.innerHTML = words.length;
-		
+
 	// counting sentances 
+		var sentances = textInput.value.split(/[.|!|?]/g);
+		
+		sentanceCount.innerHTML = sentances.length;
+
 
 	});
 </script>
